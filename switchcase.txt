@@ -1,0 +1,33 @@
+import java.lang.*;
+import java.util.*;
+class Breaktest
+{
+public static void main(String args[])
+{
+int d;
+Scanner s1=new Scanner(System.in);
+System.out.println("enter a house number from 1-5");
+d=s1.nextInt();
+switch(d)
+{
+case 1:
+System.out.println("raju");
+break;
+case 2:
+System.out.println("patel");
+break;
+case 3:
+System.out.println("bunny");
+break;
+case 4:
+System.out.println("srinith");
+break;
+case 5:
+System.out.println("kotte");
+break;
+System.out.println("invalid house number");
+break;
+}
+}
+}
+
